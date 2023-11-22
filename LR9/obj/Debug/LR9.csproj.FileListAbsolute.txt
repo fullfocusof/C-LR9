@@ -1,0 +1,10 @@
+E:\Projects\C#\LR9\LR9\bin\Debug\LR9.exe.config
+E:\Projects\C#\LR9\LR9\bin\Debug\LR9.exe
+E:\Projects\C#\LR9\LR9\bin\Debug\LR9.pdb
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.csproj.AssemblyReference.cache
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.Properties.Resources.resources
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.PuzzleForm.resources
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.csproj.GenerateResource.cache
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.csproj.CoreCompileInputs.cache
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.exe
+E:\Projects\C#\LR9\LR9\obj\Debug\LR9.pdb
