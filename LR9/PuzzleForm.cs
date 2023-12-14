@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LR9.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -66,6 +67,24 @@ namespace LR9
             IMGsID[receiverID] = IMGsID[sourceID];
             IMGsID[sourceID] = tempID;
 
+            if (IMGsID[receiverID] == correctIMGs[receiverID])
+            {
+                correctDrag(receiver, false);
+            }
+            else
+            {
+                correctDrag(receiver, true);
+            }
+
+            if (IMGsID[sourceID] == correctIMGs[sourceID])
+            {
+                correctDrag(source, false);
+            }
+            else
+            {
+                correctDrag(source, true);
+            }
+
             isEndGame();
         }
 
@@ -124,5 +143,30 @@ namespace LR9
                 }
             }
         }
+
+        private void correctDrag(PictureBox pb, bool needToDelete)
+        {
+            if(needToDelete)
+            {
+                PictureBox toDel = pb.Controls.OfType<PictureBox>().FirstOrDefault();
+                pb.Controls.Remove(toDel);
+            }
+            else
+            {
+                Image temp = Image.FromFile(@"E:\Projects\C#\LR9\LR9\correctIMG.png");
+                Size tempSize = new Size(pb.Size.Width / 10, pb.Size.Height / 10);
+
+                PictureBox pb2 = new PictureBox
+                {
+                    Size = tempSize,
+                    SizeMode = PictureBoxSizeMode.StretchImage,
+                    Location = new Point(0, 0),
+                    BackColor = Color.Transparent,
+                    Image = temp
+                };
+                pb.Controls.Add(pb2);
+            }     
+        }
+
     }
 }

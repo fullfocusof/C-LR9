@@ -1,0 +1,10 @@
+E:\Projects\C#\LR9\LR9.2.1\bin\Debug\LR9.2.1.exe.config
+E:\Projects\C#\LR9\LR9.2.1\bin\Debug\LR9.2.1.exe
+E:\Projects\C#\LR9\LR9.2.1\bin\Debug\LR9.2.1.pdb
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9.2.1.csproj.AssemblyReference.cache
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9._2._1.Properties.Resources.resources
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9._2._1.СountingForm.resources
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9.2.1.csproj.GenerateResource.cache
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9.2.1.csproj.CoreCompileInputs.cache
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9.2.1.exe
+E:\Projects\C#\LR9\LR9.2.1\obj\Debug\LR9.2.1.pdb
