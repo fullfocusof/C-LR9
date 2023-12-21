@@ -55,8 +55,11 @@ namespace LR9._2._1
             else
             {
                 correctDrag(receiver, true);
-                cntOfCorrect--;
-
+                if(cntOfCorrect > 0)
+                {
+                    cntOfCorrect--;
+                }
+                
                 MessageBox.Show("Неверный ответ\nПопробуйте еще раз", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -72,7 +75,7 @@ namespace LR9._2._1
             }
             else
             {
-                Image temp = Image.FromFile(@"E:\Projects\C#\LR9\LR9\correctIMG.png");
+                Image temp = Image.FromFile(@"D:\Users\class\source\repos\C-LR9\correctIMG.jpg");
                 Size tempSize = new Size(pb.Size.Width / 5, pb.Size.Height / 5);
 
                 PictureBox pb2 = new PictureBox
